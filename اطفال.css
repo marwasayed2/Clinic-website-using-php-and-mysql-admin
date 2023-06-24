@@ -1,0 +1,83 @@
+body{
+    text-align: right;
+   
+ }
+ .top{
+     background-image: url(media/Screenshot\ 2022-08-07\ 224813.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+ }
+ table{
+     height: 60%;
+     text-align: center;
+     background-color: rgb(130, 177, 248);
+     color: white;
+ }
+ .first{
+     margin-right: 20%;
+  
+ }
+ 
+ .second{
+    
+     background-color: rgb(205, 243, 230);
+ 
+ }
+ hr{
+     width: 70%;
+     color: rgb(170, 6, 247);
+ } ul{
+    list-style-type: none;
+
+
+    }
+    ul li{
+    /* background-image:url(" imag/WIN_20211217_17_37_22_Pro.jpg"); */
+    background-position:0px 5px;
+    padding-left:20px;
+    background-repeat:no-repeat;
+    display:inline-block;
+    }
+    body
+    {
+    text-align: right;
+        background-color: lightcyan;
+    }
+    button{
+    float:center;
+    background:rgb(35,174,202);
+    padding:10px 15px;
+    color:#fff;
+    border-radius:5px;
+    margin-right:10px; height: 100%;
+    width: fit-content;
+    height: 100%;
+    }
+    
+input{
+    padding:10px 15px;
+    border-radius:5px;
+    margin-right:10px;
+    font-style:italic;
+    display: inline-block;
+    border:2px solid rgb(35,174,202) ;
+    }
+    select{
+    float:center;
+    padding:10px 15px;
+    border-radius:5px;
+    margin-right:10px;
+    }
+    form{
+        /* border:7px double; */
+        /* border-color:blue; */
+        border-radius:5px;
+         margin-right:10px;
+         padding:10px 15px;
+         font-style:italic;
+    }
+
+ 
+ 

@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 90px;
+}
+
+.header .links {
+    position: relative;
+}
+
+.header .links i {
+    font-size: 30px;
+}
+
+.header .links:hover ul {
+    display: block;
+}
+
+.header .links ul {
+    list-style: none;
+    background-color: #e4d9fd;
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: calc(100% + 15px);
+    display: none;
+    z-index: 10000;
+}
+
+.header .links ul::before {
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent #e4d9fd transparent;
+    position: absolute;
+    right: 5px;
+    top: -20px;
+}
+
+.header .links ul li a {
+    display: block;
+    color: black;
+    padding: 17px;
+    text-decoration: none;
+    transition: 0.4s all ease-in-out;
+}
+
+.header .links ul li a:hover {
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+}
+
+.header .links ul li:not(:last-child) a {
+    border-bottom: 1px solid black;
+}
+
+/* _________________________________________ */
+.welcome {
+    position: relative;
+    background-image: url(../images/welcome.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.welcome .txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EEE;
+    color: black;
+    padding: 80px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-align: center;
+    transition: 1s all ease-in-out;
+}
+
+.welcome .txt h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.welcome .txt p {
+    font-size: 20px;
+}
+
+.welcome .txt:hover {
+    padding: 120px;
+    letter-spacing: 10px;
+}
+
+.welcome .txt:hover p {
+    font-size: 25px;
+}
+
+.welcome .txt:hover h1 {
+    font-size: 54px;
+}
+
+
+/* ________________________________________________________________ */
+.cH1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    font-size: 80px;
+    color: sienna;
+}
+
+/* ____________________________________________________________________ */
+.bestofrrers {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.containe {
+    width: 30%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0px;
+    height: 180px;
+    box-shadow: 0 0 10px 0 sienna;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    transition: 0.5s all ease-in-out;
+}
+
+@media (max-width : 768px) {
+    .containe {
+        width: 100%;
+    }
+
+}
+
+.containe:hover {
+    background-color: sienna;
+    color: white;
+}
+
+.containe h3 {
+    text-decoration: line-through;
+}
+
+.containe * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containe h4 {
+    font-size: 20px;
+}
+
+hr {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    background-color: sienna;
+}
+
+#hrr {
+    margin-bottom: 60px;
+}
+
+
+/* __________________________________________________________________________ */
+footer {
+    text-align: center;
+    background-color: rgb(28, 98, 155);
+    padding:20px;
+}
+
+
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.461);
+    color: rgb(175, 156, 156);
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 10px;
+
+}
+
+
+
+#contact:hover {
+    background-color: rgb(73, 32, 13);
+    color: #EEE;
+}
+
+
+
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: sienna;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #d33636;
+    color: white;
+}
+
+.fa-youtube {
+    background: #920e0e;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.social{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer h3{
+    color: #EEE !important;
+}

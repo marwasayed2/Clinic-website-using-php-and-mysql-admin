@@ -1,0 +1,67 @@
+form{
+    border:7px double;
+    border-color:blue;
+    border-radius:5px;
+     margin-right:10px;
+     padding:10px 15px;
+     font-style:italic;
+}
+body{
+    text-align: center ;
+    background-image:url(https://www.right-website.com/wp-content/uploads/2020/08/%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D9%82%D8%B9-%D9%84%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9.jpg);
+     background-size: 100% 100%;
+    background-position:50% 20%;
+     font-size:30px; 
+     font-style:italic;
+}
+button{
+float:center;
+background:rgb(35,174,202);
+padding:10px 15px;
+color:#fff;
+border-radius:5px;
+margin-right:10px; height: 100%;
+width: fit-content;
+height: 100%;
+font-size:large;
+
+
+}
+input{
+padding:10px 15px;
+border-radius:5px;
+margin-right:10px;
+font-style:italic;
+display: inline-block;
+border:2px solid rgb(35,174,202) ;
+}
+.error 
+{
+  color: #FF0000;
+}
+.container
+{
+max-width: 700px;
+width:100%;
+background:#fff;
+padding:25px 30px;
+border-radius:5px;
+}
+form input[type="radio"]
+{
+  color: #000;
+  size: 10px;
+}
+
+form .button input{
+    height: 100%;
+    width: fit-content;
+    outline:none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(#71b7e6,#9b59b6);
+  }

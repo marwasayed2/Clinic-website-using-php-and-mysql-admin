@@ -1,0 +1,44 @@
+form .s{
+    border:3px double;
+    border-color:blueviolet;
+    border-radius:9px;
+     margin-right:10px;
+     padding:10px 15px;
+     font-style:italic;
+    border-width:30% ;
+    
+}
+body{
+    text-align: center ;
+    background: linear-gradient(100deg,lightblue,white);
+
+     background-size: 100% 100%;
+    background-position:50% 20%;
+     font-size:30px; 
+     font-style:italic;
+}
+ button{
+float:center;
+background:rgb(35,174,202);
+padding:10px 20px;
+color:#fff;
+border-radius:5px;
+/* margin-right:10px; height: 100%; */
+width: fit-content;
+ /* height: 100%;  */
+font-size:large;
+
+
+} 
+input{
+padding:10px 15px;
+border-radius:5px;
+margin-right:10px;
+font-style:italic;
+display: inline-block;
+border:2px solid rgb(35,174,202) ;
+}
+.error 
+{
+  color: #FF0000;
+}

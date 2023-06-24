@@ -1,0 +1,74 @@
+body{
+    direction: rtl;
+    background: linear-gradient(135deg,#d42a7f,#eae258);
+    
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+    justify-content: center;
+
+    
+
+    
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hh{
+    text-align: center;
+    
+}
+
+.ww{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* body{
+    margin-top: 10%;background-image: url(اختيارتى.jpg);
+    background-size: cover;
+    background-size: 795px 400px;
+} */
+p{
+    opacity: 0.6;
+    font-size: 15px ;
+}
+h2{
+    font-size: 20px;
+}
+.buttom{
+    height: 45px;
+    margin-right: 80%;
+    height: 100%;
+    width: fit-content;
+    outline:none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: linear-gradient(#71b7e6,#9b59b6);
+}
+.in {
+ position: relative;
+ border-radius: 0 25px 25px 0;
+ width: 150px;
+ height: 30px;
+ border: none;
+ outline: none;
+ cursor:pointer ;
+ background:#d4d6d4;
+ color: #fff;
+}
+.input-box{
+    display: inline-block;
+    margin: 8px;
+    
+  margin-bottom: 15px;
+  }
